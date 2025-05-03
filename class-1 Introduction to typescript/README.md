@@ -1,84 +1,63 @@
-📚 What we will be learning & doing? Introduction to TypeScript
+# What we will be learning & doing?
 
-• Basic and advance types of TypeScript
+- Introduction to TypeScript
+- Basic and advance types of TypeScript
+- Normal function & arrow function
+- Generic and interface
+- Module and namespaces
+- Object Oriented TypeScript
 
-• Normal function & arrow function
+## What is TypeScript?
 
-• Generic and interface
+TypeScript is an object-oriented programming language built on top of
+JavaScript. It adds optional static typing and other powerful features to
+enhance the development experience.
 
-• Module and namespaces
+## Why TypeScript?
 
-• Object Oriented TypeScript
+Limitations of JavaScript
 
-💡 What is TypeScript? TypeScript is an object-oriented programming language
-built on top of JavaScript. It adds optional static typing and other powerful
-features to enhance the development experience.
+- Dynamically typed language
+- Difficult to maintain large codebases
+- Hard to catch bugs early
+- Errors are usually caught only at runtime
+- Limited code auto-completion and intellisense in vanilla JavaScript
 
-❓ Why TypeScript?
+### Advantages of TypeScript
 
-• Limitations of JavaScript
+- Adds static typing to catch errors at compile-time
+- Improves code readability and maintainability
+- Enhances IDE support with better auto-completion and refactoring tools
+- Supports modern JavaScript features and can transpile code to older versions
+  (e.g., ES3, ES5) for compatibility
 
-• Dynamically typed language
+## Built-in Types from JavaScript
 
-• Difficult to maintain large codebases
+- number
+- string
+- boolean
+- undefined
+- null
+- object
+- symbol
+- bigint
 
-• Hard to catch bugs early
+### Additional Types Introduced by TypeScript
 
-• Errors are usually caught only at runtime
+- void
+- any
+- unknown
+- never
+- array
+- tuple
+- enum
+- union
+- intersection
+- interface
 
-• Limited code auto-completion and intellisense in vanilla JavaScript
+### Drawbacks of using TypeScript
 
-✅ Advantages of TypeScript
-
-• Adds static typing to catch errors at compile-time
-
-• Improves code readability and maintainability
-
-• Enhances IDE support with better auto-completion and refactoring tools
-
-• Supports modern JavaScript features and can transpile code to older versions
-(e.g., ES3, ES5) for compatibility
-
-Built-in Types from JavaScript number
-
-• string
-
-• boolean
-
-• undefined
-
-• null
-
-• object
-
-• symbol
-
-• bigint
-
-Additional Types Introduced by TypeScript void
-
-• any
-
-• unknown
-
-• never
-
-• array
-
-• tuple
-
-• enum
-
-• union
-
-• intersection
-
-• interface
-
-⚠️ Drawbacks of using TypeScript Type Complexities
-
-• Limited Library Support
-
-• Over Engineering
-
-• Migration challanges
+- Type Complexities
+- Limited Library Support
+- Over Engineering
+- Migration challanges
